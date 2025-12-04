@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio | Nguyen Van A</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter Font Setup -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Lucide-React Icon Setup via CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9; /* Light background color */
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.25rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50%;
+            height: 3px;
+            background-color: #10b981; /* Teal/Green color */
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-3xl overflow-hidden">
+        
+        <!-- Header Section -->
+        <header class="bg-gray-800 text-white p-8 sm:p-12 text-center relative">
+            <!-- Placeholder Image -->
+            <div class="w-24 h-24 sm:w-32 sm:h-32 rounded-full mx-auto mb-4 bg-gray-600 border-4 border-white flex items-center justify-center">
+                <!-- Using Placeholder Image -->
+                <img src="https://placehold.co/128x128/374151/ffffff?text=AVATAR" alt="Profile Picture" class="rounded-full w-full h-full object-cover" onerror="this.onerror=null; this.src='https://placehold.co/128x128/374151/ffffff?text=AVATAR';">
+            </div>
+            
+            <h1 class="text-3xl sm:text-4xl font-extrabold mb-1">TRẦN VĂN TOẢN</h1>
+            <p class="text-xl font-light text-green-400">E-commerce Development & PHP Expert</p>
+            
+            <!-- Social Links -->
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-green-400 transition duration-300">
+                    <i data-lucide="github" class="w-6 h-6"></i>
+                </a>
+                <a href="#" class="hover:text-green-400 transition duration-300">
+                    <i data-lucide="linkedin" class="w-6 h-6"></i>
+                </a>
+                <a href="#" class="hover:text-green-400 transition duration-300">
+                    <i data-lucide="mail" class="w-6 h-6"></i>
+                </a>
+            </div>
+        </header>
+
+        <main class="p-6 sm:p-10">
+            
+            <!-- About Me Section -->
+            <section class="mb-10">
+                <h2 class="text-2xl font-bold mb-4 section-title text-gray-700">About Me</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    I am an **E-commerce Performance Architect** specializing in transforming high-volume digital storefronts into scalable, profitable revenue engines.
+                    <br><br>
+                    With a decade of dedicated backend expertise, I wield **PHP (10+ years)** and **Magento (8 years, M1/M2)** to tackle the most challenging aspects of E-commerce: seamless integration, hyper-optimization, and future-proof scalability. My proficiency extends across the entire E-commerce landscape, including building robust solutions on **Shopify** and **WordPress**.
+                    <br><br>
+                    My commitment to delivery excellence is reflected in **verified 5-star reviews on Trustpilot**. I don't just write code; I build trusted, high-converting E-commerce success stories.
+                </p>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="mb-10">
+                <h2 class="text-2xl font-bold mb-6 section-title text-gray-700">Core Skills & Expertise</h2>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <!-- PHP Core -->
+                    <div class="bg-indigo-50 p-4 rounded-xl shadow-md transition duration-300 hover:shadow-lg hover:ring-2 ring-indigo-500 text-center">
+                        <i data-lucide="code" class="w-8 h-8 text-indigo-600 mx-auto mb-2"></i>
+                        <h3 class="font-semibold text-lg text-gray-800">PHP</h3>
+                        <p class="text-xs text-gray-600 font-bold">10+ Years Experience</p>
+                    </div>
+
+                    <!-- Magento -->
+                    <div class="bg-red-50 p-4 rounded-xl shadow-md transition duration-300 hover:shadow-lg hover:ring-2 ring-red-500 text-center">
+                        <i data-lucide="shopping-bag" class="w-8 h-8 text-red-600 mx-auto mb-2"></i>
+                        <h3 class="font-semibold text-lg text-gray-800">Magento</h3>
+                        <p class="text-xs text-gray-600 font-bold">8+ Years (M1 & M2)</p>
+                    </div>
+                    
+                    <!-- Shopify -->
+                    <div class="bg-green-50 p-4 rounded-xl shadow-md transition duration-300 hover:shadow-lg hover:ring-2 ring-green-500 text-center">
+                        <i data-lucide="store" class="w-8 h-8 text-green-600 mx-auto mb-2"></i>
+                        <h3 class="font-semibold text-lg text-gray-800">Shopify</h3>
+                        <p class="text-xs text-gray-600">Development & Customization</p>
+                    </div>
+
+                    <!-- WordPress -->
+                    <div class="bg-blue-50 p-4 rounded-xl shadow-md transition duration-300 hover:shadow-lg hover:ring-2 ring-blue-500 text-center">
+                        <i data-lucide="file-text" class="w-8 h-8 text-blue-600 mx-auto mb-2"></i>
+                        <h3 class="font-semibold text-lg text-gray-800">WordPress</h3>
+                        <p class="text-xs text-gray-600">Theme/Plugin Development</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section class="mb-10">
+                <h2 class="text-2xl font-bold mb-6 section-title text-gray-700">Certifications Achieved</h2>
+                
+                <div class="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-lg shadow-md flex items-center justify-between">
+                    <div class="flex items-center">
+                        <i data-lucide="award" class="w-6 h-6 text-yellow-600 mr-4 flex-shrink-0"></i>
+                        <div>
+                            <p class="font-semibold text-gray-800">Shopify Development Fundamentals</p>
+                            <p class="text-sm text-gray-600">Verified Skill Badge</p>
+                        </div>
+                    </div>
+                    <a href="#" class="text-sm text-yellow-700 font-medium hover:underline flex items-center">
+                        <i data-lucide="external-link" class="w-4 h-4 mr-1"></i>
+                        View
+                    </a>
+                </div>
+            </section>
+            
+            <!-- Trustpilot Reviews Section -->
+            <section class="mb-10">
+                <h2 class="text-2xl font-bold mb-6 section-title text-gray-700">Client Testimonials</h2>
+                <p class="text-gray-600 mb-6">Trust is built on real feedback. Here are verified reviews from Trustpilot.</p>
+                
+                    <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <div id="trustpilot-widget-container" class="grid md:grid-cols-3 gap-6">
+                        
+                        <!-- STATIC REVIEW CARD 1 -->
+                        <div class="p-5 border-2 border-green-200 rounded-xl bg-green-50 flex flex-col justify-between">
+                            <div>
+                                <!-- Rating -->
+                                <div class="flex items-center mb-2">
+                                    <!-- 5 Stars -->
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-gray-800 mb-2">Highly Professional and Effective!</h3>
+                                <p class="italic text-sm text-gray-600 mb-4 line-clamp-4">
+                                    "Completed a complex E-commerce project on time, especially the Magento 2 payment integration which was very smooth. Professional work attitude and readily available for support."
+                                </p>
+                            </div>
+                            
+                            <!-- Reviewer and Link -->
+                            <div class="text-sm text-gray-600 border-t pt-3 mt-auto">
+                                <span class="font-medium block mb-2">— Client A</span>
+                                <a href="https://www.trustpilot.com/reviews/63ea12b79b64b1bdaf55a2c3" target="_blank" class="text-blue-600 hover:text-blue-800 flex items-center text-xs">
+                                    View on Trustpilot
+                                    <i data-lucide="external-link" class="w-3 h-3 ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END STATIC REVIEW CARD 1 -->
+                        
+                        <!-- STATIC REVIEW CARD 2 -->
+                        <div class="p-5 border-2 border-green-200 rounded-xl bg-green-50 flex flex-col justify-between">
+                            <div>
+                                <!-- Rating -->
+                                <div class="flex items-center mb-2">
+                                    <!-- 5 Stars -->
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-gray-800 mb-2">Rapid Problem Solving</h3>
+                                <p class="italic text-sm text-gray-600 mb-4 line-clamp-4">
+                                    "The ability to debug and optimize Shopify website performance was incredibly fast. Helped us save a lot of time and operational costs."
+                                </p>
+                            </div>
+                            
+                            <!-- Reviewer and Link -->
+                            <div class="text-sm text-gray-600 border-t pt-3 mt-auto">
+                                <span class="font-medium block mb-2">— Client B</span>
+                                <a href="https://www.trustpilot.com/reviews/637c3792b84cc27618f2f1be" target="_blank" class="text-blue-600 hover:text-blue-800 flex items-center text-xs">
+                                    View on Trustpilot
+                                    <i data-lucide="external-link" class="w-3 h-3 ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END STATIC REVIEW CARD 2 -->
+                        
+                        <!-- STATIC REVIEW CARD 3 -->
+                        <div class="p-5 border-2 border-green-200 rounded-xl bg-green-50 flex flex-col justify-between">
+                            <div>
+                                <!-- Rating -->
+                                <div class="flex items-center mb-2">
+                                    <!-- 5 Stars -->
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500 mr-1"></i>
+                                    <i data-lucide="star" class="w-4 h-4 fill-yellow-500 text-yellow-500"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-gray-800 mb-2">Deep Expertise in PHP/Magento</h3>
+                                <p class="italic text-sm text-gray-600 mb-4 line-clamp-4">
+                                    "Profound knowledge of Magento 2, especially concerning performance and system architecture issues. A reliable partner for large-scale projects."
+                                </p>
+                            </div>
+                            
+                            <!-- Reviewer and Link -->
+                            <div class="text-sm text-gray-600 border-t pt-3 mt-auto">
+                                <span class="font-medium block mb-2">— Client C</span>
+                                <a href="https://www.trustpilot.com/reviews/637c3792b84cc27618f2f1be" target="_blank" class="text-blue-600 hover:text-blue-800 flex items-center text-xs">
+                                    View on Trustpilot
+                                    <i data-lucide="external-link" class="w-3 h-3 ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END STATIC REVIEW CARD 3 -->
+                        
+                    </div>
+                    <!-- Review Footer -->
+                    <div class="text-center mt-6 pt-4 border-t border-gray-100">
+                        <p class="text-sm text-gray-500">All testimonials can be verified by clicking the link on each card.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- END Trustpilot Reviews Section -->
+
+            <!-- Projects Section -->
+            <section class="mb-10">
+                <h2 class="text-2xl font-bold mb-6 section-title text-gray-700">Featured Projects</h2>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <!-- Project 1 (Magento) -->
+                    <div class="border border-gray-200 rounded-xl p-5 shadow-sm bg-white hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Magento 2 E-commerce System (B2C)</h3>
+                        <p class="text-sm text-gray-600 mb-3">Performance optimization and custom payment gateway integration for a high-traffic website. (Received positive Trustpilot review)</p>
+                        <p class="text-xs font-mono text-green-600 mb-3">Tech Stack: Magento 2, PHP, MySQL, Redis.</p>
+                        <a href="#" class="text-blue-500 hover:text-blue-700 text-sm font-medium flex items-center">
+                            View details 
+                            <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
+
+                    <!-- Project 2 (Shopify/WordPress) -->
+                    <div class="border border-gray-200 rounded-xl p-5 shadow-sm bg-white hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Custom Shopify Theme/App Development</h3>
+                        <p class="text-sm text-gray-600 mb-3">Built an inventory management application deeply integrated into the Shopify Admin and specialized WordPress theme customization.</p>
+                        <p class="text-xs font-mono text-green-600 mb-3">Tech Stack: Shopify (Liquid/App), WordPress, PHP.</p>
+                        <a href="#" class="text-blue-500 hover:text-blue-700 text-sm font-medium flex items-center">
+                            View details 
+                            <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section - USING FORMSPREE -->
+            <section class="text-center bg-gray-50 p-8 rounded-2xl">
+                <h2 class="text-2xl font-bold mb-4 text-gray-700">Want to collaborate?</h2>
+                <p class="text-gray-600 mb-6">Leave me a message. I will respond as soon as possible!</p>
+                
+                <!-- CONTACT FORM - PLEASE REPLACE 'YOUR_FORMSPREE_CODE' WITH YOUR PERSONAL CODE AFTER REGISTERING WITH FORMSPREE -->
+                <form action="https://formspree.io/f/YOUR_FORMSPREE_CODE" method="POST" class="max-w-md mx-auto space-y-4 text-left">
+                    <div>
+                        <label for="email" class="sr-only">Email Address</label>
+                        <input type="email" name="_replyto" id="email" required placeholder="Your Email Address..." 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500 transition duration-150"
+                               aria-label="Email Address">
+                    </div>
+                    <div>
+                        <label for="message" class="sr-only">Message Content</label>
+                        <textarea name="message" id="message" rows="4" required placeholder="Your Message Content..."
+                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500 transition duration-150"
+                                  aria-label="Message Content"></textarea>
+                    </div>
+                    <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-green-500 hover:bg-green-600 transition duration-300 shadow-md">
+                        <i data-lucide="send" class="w-5 h-5 mr-2"></i>
+                        Send Message
+                    </button>
+                    <p class="text-xs text-gray-500 mt-2">Uses Formspree service to send emails directly from the static website.</p>
+                </form>
+            </section>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="p-4 text-center text-sm text-gray-500 border-t border-gray-100 mt-6">
+            © 2025 MrToan. Built with Tailwind CSS.
+        </footer>
+
+    </div>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
